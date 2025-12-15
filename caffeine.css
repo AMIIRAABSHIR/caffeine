@@ -1,0 +1,241 @@
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    top: 100;
+    left: 100;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: medium;
+    gap: 20px;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: black;
+    gap: 20px;
+
+}
+
+/* nav bar */
+.s1 {
+    background-image: url(ilhaan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    align-content: flex-start;
+    padding: 50px;
+    color: white;
+}
+
+button {
+    background-color: green;
+
+    align-content: center;
+    padding: 10px;
+    color: white;
+    /* border-radius: 1s0px; */
+    /* box-shadow: none; */
+}
+
+/* section 1  */
+.about h1 {
+    text-align: center;
+}
+
+.about .about-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-box div {
+    width: 500px;
+}
+
+.about-box img {
+    width: 500px;
+}
+
+/* section 2 */
+.menu-box {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-inline: 10px;
+}
+.menu-box div{
+        border: 1px solid gold;
+padding: 40px;
+
+} 
+
+
+/* section 3 */
+.product-box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-box h1 {
+    text-align: center;
+}
+
+.b1 {
+    border: 1px solid #17d427;
+    padding: 1Px;
+}
+
+.b2 {
+    border: 1px solid gold;
+    padding: 50px 40px 50px 4-0;
+}
+
+.container {
+    border: 1px solid gold;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shopping-icon .fa-solid {
+    margin-bottom: 20px;
+    border: 1px solid gold;
+    padding: 2px;
+    font-size: 20px;
+}
+
+.star-icon .fa-solid {
+    color: gold;
+    font-size: 20px;
+}
+
+.product-box h1 {
+    text-align: center;
+}
+
+.container {
+    padding: 40px;
+    border: 1px solid gold;
+    flex-direction: column;
+    margin-top: 20px;
+    margin: 20px 30px 20px 30px;
+
+}
+
+/* section 4  */
+.customer-box{
+display: flex;
+justify-content: space-between;
+
+}  
+.customer-box div  {
+    border: solid 1px gold;
+    padding: 20px;
+}
+.customer h1{
+text-align: center;
+}
+.customer-box .fa-solid{
+    color: gold;
+    font: size 20px;
+    align-items:center;
+}
+
+/* section 5 */
+.contact h1{
+    text-align: center;
+}
+.contact-box  {
+display: flex;
+justify-content:space-around;
+}
+.form{
+    width: 200px;
+}
+/* section 6 */
+.blogs-box{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20pxx;
+}
+
+
+  form{
+    width: 100px;
+    align-content: center;
+    font-weight: 100;
+
+}
+/* section 7 */
+.s7  {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+
+}
+ .s7 .fa-solid{
+    font-weight: 700;
+    font-size: x-large;
+
+ } 
+
+/* responsiveness  */
+@media(max-width:900px) {
+    .div {
+        flex-direction: column;
+        gap: 10px !important;
+    }
+
+    .s1 {
+        margin-top: 100px !important;
+    }
+
+    .about-box {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .about-box img {
+        width: 100% !important;
+    }
+   .menu-box{
+    flex-direction: column;
+
+   }
+    .product-box {
+        flex-direction: column;
+    }
+.customer-box{
+    flex-direction: column;
+}
+.contact-box{
+    flex-direction: column;
+}
+.blogs-box{
+    flex-direction: column;
+}
+.lost-box{
+    flex-direction: column;
+    gap: 20px;
+}
+}
